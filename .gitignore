@@ -10,6 +10,8 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # IDEs and editors
 .idea/
@@ -40,3 +42,16 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+
+# Environment configuration files
+src/environments/environment.ts
+src/environments/environment.prod.ts
+src/environments/environment.*.ts
